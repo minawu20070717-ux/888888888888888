@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #05050a; /* 極致深黑 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Microsoft JhengHei', 'Courier New', Courier, monospace;
+}
+
+#game-container {
+    box-shadow: 0 0 35px rgba(0, 242, 254, 0.4); 
+    border: 2px solid #00f2fe;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-container canvas {
+    display: block !important;
+}
